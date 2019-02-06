@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/nav_add"
+          android:title="Add"
+          android:icon="@drawable/add"
+        />
+
+    <item android:id="@+id/nav_display"
+        android:title="Display"
+        android:icon="@drawable/display"
+        />
+
+    <item android:id="@+id/nav_update"
+        android:title="Update"
+        android:icon="@drawable/update"
+        />
+
+    <item android:id="@+id/nav_delete"
+        android:title="Delete"
+        android:icon="@drawable/delete"
+        />
+
+
+
+
+</menu>

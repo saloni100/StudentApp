@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="#2B8C8C"
+        android:id="@+id/background"
+
+        />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_marginTop="10dp"
+
+        />
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student"
+        android:textColor="#DFBE57"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/student_text"
+
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" form"
+        android:textColor="#DFBE57"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_marginTop="110dp"
+        android:id="@+id/form_text"
+        />
+
+
+
+</FrameLayout>
